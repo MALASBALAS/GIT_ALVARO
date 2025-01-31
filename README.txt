@@ -1,7 +1,1 @@
-
 # Álvaro Balas - Práctica Git
-
-**Práctica de gestión de ramas en Git (Realizado desde la terminal).**
-
-Perdón por tardar tanto en realizar el trabajo, pero he estado ocupado con proyectos personales. 
-GitHub lo uso a menudo, pero sobre todo para leer código de otras personas. Nunca subo nada, pero me parece muy sencillo su uso desde la terminal.
