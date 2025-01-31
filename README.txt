@@ -1,64 +1,43 @@
-# Álvaro Balas - Práctica Git
+Álvaro Balas - Práctica Git
+Práctica de gestión de ramas en Git (Realizado desde la terminal).
 
-**Práctica de gestión de ramas en Git (Realizado desde la terminal).**
+Perdón por tardar tanto en realizar el trabajo, pero he estado ocupado con proyectos personales. GitHub lo uso a menudo, pero sobre todo para leer código de otras personas. Nunca subo nada, pero me parece muy sencillo su uso desde la terminal.
 
-Perdón por tardar tanto en realizar el trabajo, pero he estado ocupado con proyectos personales. 
-GitHub lo uso a menudo, pero sobre todo para leer código de otras personas. Nunca subo nada, pero me parece muy sencillo su uso desde la terminal.
-
-## Comandos usados en la práctica
-
-### **Inicializar el repositorio**
-```bash
+Comandos usados en la práctica
+Inicializar el repositorio
 git init
-```
-_Inicializa un nuevo repositorio Git en la carpeta actual._
+Inicializa un nuevo repositorio Git en la carpeta actual.
 
-### **Agregar archivos al área de staging**
-```bash
+Agregar archivos al área de staging
 git add .
-```
-_Añade todos los archivos nuevos o modificados al área de preparación (staging)._  
+Añade todos los archivos nuevos o modificados al área de preparación (staging).
 
-### **Realizar un commit**
-```bash
+Realizar un commit
 git commit -m "Actualizar README.txt"
-```
-_Guarda los cambios en el historial del repositorio con un mensaje descriptivo._
+Guarda los cambios en el historial del repositorio con un mensaje descriptivo.
 
-### **Crear y cambiar de ramas**
-```bash
+Crear y cambiar de ramas
 git checkout -b nombre_rama
-```
-_Crea una nueva rama y cambia a ella._
+Crea una nueva rama y cambia a ella.
 
-### **Fusionar ramas en main**
-```bash
+Fusionar ramas en main
 git checkout main
 git merge nombre_rama
-```
-_Une los cambios de una rama secundaria en la rama principal._
+Une los cambios de una rama secundaria en la rama principal.
 
-### **Eliminar un archivo del repositorio y hacer commit**
-```bash
+Eliminar un archivo del repositorio y hacer commit
 git rm a.txt
 git commit -m "Eliminar archivo a.txt"
-```
-_Elimina un archivo del repositorio y registra el cambio._
+Elimina un archivo del repositorio y registra el cambio.
 
-### **Subir cambios al repositorio remoto en GitHub**
-```bash
+Subir cambios al repositorio remoto en GitHub
 git push origin main
-```
-_Envía los cambios locales al repositorio remoto en la rama `main`._
+Envía los cambios locales al repositorio remoto en la rama main.
 
-### **Clonar un repositorio**
-```bash
+Clonar un repositorio
 git clone https://github.com/usuario/repositorio.git
-```
-_Descarga un repositorio remoto a la máquina local._
+Descarga un repositorio remoto a la máquina local.
 
-### **Ver el historial de commits**
-```bash
+Ver el historial de commits
 git log --oneline
-```
-_Muestra el historial de commits en una lista resumida._
+Muestra el historial de commits en una lista resumida.
