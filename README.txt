@@ -41,3 +41,7 @@ Descarga un repositorio remoto a la máquina local.
 Ver el historial de commits
 git log --oneline
 Muestra el historial de commits en una lista resumida.
+
+Tambien he intentado multiples veces cambiar este README.txt editandolo con "https://readme.so/es/editor" pero no se porqué, no lo logro hacer.
+
+Un saludo y gracias.
